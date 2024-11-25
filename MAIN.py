@@ -82,7 +82,7 @@ def main(initial_star_number = 100, seed = 1):
     
     print('Now filtering stars that have left the Main Sequence...')
 
-    is_evolved = filter_evolved(masses_in_imf, ms_lifetimes)
+    is_evolved = filter_evolved(random_ages, ms_lifetimes)
 
 
     
