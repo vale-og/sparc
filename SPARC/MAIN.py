@@ -148,7 +148,7 @@ def plots(plot_ms, plot_evolved):
     if plot_ms == 'y':
         max_mass = ms_stars['mass'].max()
         
-        fig, axs = plt.subplots(nrows = 1, ncols = 2,  figsize = (15,10))
+        fig, axs = plt.subplots(nrows = 1, ncols = 2,  figsize = (10,7))
 
         weights = np.ones(len(ms_stars))/float(len(ms_stars))
         
@@ -179,7 +179,7 @@ def plots(plot_ms, plot_evolved):
     
     if plot_evolved == 'y':
 
-        fig, axs = plt.subplots(nrows = 2, ncols = 3, figsize = (15,15))
+        fig, axs = plt.subplots(nrows = 2, ncols = 3, figsize = (10,10))
 
         max_mass = evolved_stars['final_mass'][evolved_stars['remnant'] == 1].max()
         weights = np.ones(len(evolved_stars[evolved_stars['remnant'] == 1]))/float(len(evolved_stars[evolved_stars['remnant'] == 1]))
