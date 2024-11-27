@@ -44,7 +44,7 @@ def filter_evolved(random_ages,ms_lifetimes):
     import pandas as pd
 
            
-    is_evolved = (ms_lifetimes < random_ages)
+    is_evolved = (ms_lifetimes <= random_ages)
     is_not_evolved = (ms_lifetimes > random_ages)
 
     
