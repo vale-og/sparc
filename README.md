@@ -15,7 +15,7 @@ To run:
 3) As an extra step, you can chose to create two plots:
 a) Mass and age distribution of the Main Sequence stars obtained from the simulation.
 b) Final mass and age from the evolved stars, separated into categories according to the obtained remnant.
-Both of these plots will be saved as .pdf files in the same SPARC folder
+Both of these plots will be saved as .pdf files in the SPARC/figures/ folder
 
 
 
