@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
 def main(initial_star_number = 100, seed = 1): 
     '''
     
@@ -39,9 +43,6 @@ def main(initial_star_number = 100, seed = 1):
     A file containing the masses, ages, remnant type and final mass for stars out of the MS
     '''
     
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import pandas as pd
     
     
     from IMF import kroupa_imf
