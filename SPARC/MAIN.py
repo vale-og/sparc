@@ -156,7 +156,11 @@ def plots(plot_ms, plot_evolved):
         axs[0].set_ylabel('Density')
 
 
-        axs[1].hist(ms_stars['age'], bins = 100, color = 'red', alpha = 0.4, weights = weights, range = (0, max_mass))
+
+        max_age = ms_stars['age'].max()
+
+
+        axs[1].hist(ms_stars['age'], bins = 100, color = 'red', alpha = 0.4, weights = weights, range = (0, max_age))
         axs[1].set_xlabel('Age [Gyr]')
         axs[1].set_ylabel('Density')
 
